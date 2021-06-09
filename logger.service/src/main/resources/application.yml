@@ -1,0 +1,13 @@
+server:
+ port: 8084
+spring:
+ jpa:
+  show-sql: true 
+ cloud:
+  stream:
+   bindings:
+    input: 
+     destination: javaAut
+    output: 
+     destination: javaBut    
+     
